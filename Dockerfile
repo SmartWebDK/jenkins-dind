@@ -1,4 +1,4 @@
-FROM jenkins:latest
+FROM jenkins/jenkins:lts
 
 USER root
 RUN wget -P /tmp/ https://get.docker.com/builds/Linux/x86_64/docker-1.13.0.tgz \
